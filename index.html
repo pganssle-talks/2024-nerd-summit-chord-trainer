@@ -76,7 +76,7 @@ This is where speaker notes go.
 					<textarea data-template>
 # Relative and Absolute Pitch
 
-<div class="gallery two-high">
+<div class="gallery two-high fragment disappearing-fragment fade-out" data-fragment-index="0">
     <div class="gallery-item">
         <img src="images/frequencies.png"
           />
@@ -87,12 +87,22 @@ This is where speaker notes go.
     </div>
 </div>
 
+<img src="images/stock/swatches.png"
+     class="fragment"
+     data-fragment-index="0"
+     >
+
 Notes:
 
 To put everyone on the same page, most people have what's called relative pitch — you can tell if one sound is higher or lower than another sound, but you cannot hear a sound and say, "Oh, that's a middle C" without a known reference pitch — that is why, for example, the stereotypical barbershop quartet will have someone blowing into a pitch pipe before they start singing — they know what note that's supposed to be, and they know where they should be singing relative to it.
 
 
-In contrast, absolute pitch (also sometimes called perfect pitch), is when you can identify notes without the need of a reference pitch. In some ways I've heard this described as perceiving sound more like the way most of us perceive color — you can look at a color and know that it's red or yellow or blue or something, you don't need to compare objects to swatches to determine how red or blue they are, you just look at it and know what color it is.
+In contrast, absolute pitch (also sometimes called perfect pitch), is when you can identify notes without the nee
+d of a reference pitch.
+
+To visually demonstrate this, you can see if you look at these three waveforms at the top, it's pretty easy to see which ones are higher and lower frequency than the others, but it would be pretty difficult to estimate the actual frequencies at a glance, but if you were to plot in the fourier domain, you can pretty easily see what frequency each one is just by looking at it.
+
+In some ways I've heard absolute pitch described as perceiving sound more like the way most of us perceive color — you can look at a color and know that it's red or yellow or blue or something, you don't need to compare objects to swatches to determine how red or blue they are, you just look at it and know what color it is.
 
 --
 
@@ -1283,6 +1293,7 @@ self.addEventListener("fetch", (e) => {
 					<textarea data-template>
 # Implementation Tips
 
+- Resist the temptation to help too much
 - Consistency is key!
 - 4× or 3× per day is probably fine
 - Aim for ~800-900 identifications / week

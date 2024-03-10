@@ -1,5 +1,6 @@
 # Implementation Tips
 
+- Resist the temptation to help too much
 - Consistency is key!
 - 4× or 3× per day is probably fine
 - Aim for ~800-900 identifications / week
